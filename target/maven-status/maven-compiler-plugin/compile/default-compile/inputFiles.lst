@@ -1,0 +1,15 @@
+/opt/project1/employee-management-webapp/src/main/java/net/javaguides/springboot/config/SecurityConfiguration.java
+/opt/project1/employee-management-webapp/src/main/java/net/javaguides/springboot/service/UserService.java
+/opt/project1/employee-management-webapp/src/main/java/net/javaguides/springboot/service/UserServiceImpl.java
+/opt/project1/employee-management-webapp/src/main/java/net/javaguides/springboot/dto/UserRegistrationDto.java
+/opt/project1/employee-management-webapp/src/main/java/net/javaguides/springboot/controller/MainController.java
+/opt/project1/employee-management-webapp/src/main/java/net/javaguides/springboot/EmployeeManagementWebappApplication.java
+/opt/project1/employee-management-webapp/src/main/java/net/javaguides/springboot/model/Role.java
+/opt/project1/employee-management-webapp/src/main/java/net/javaguides/springboot/model/Employee.java
+/opt/project1/employee-management-webapp/src/main/java/net/javaguides/springboot/controller/UserRegistrationController.java
+/opt/project1/employee-management-webapp/src/main/java/net/javaguides/springboot/controller/EmployeeController.java
+/opt/project1/employee-management-webapp/src/main/java/net/javaguides/springboot/model/User.java
+/opt/project1/employee-management-webapp/src/main/java/net/javaguides/springboot/repository/UserRepository.java
+/opt/project1/employee-management-webapp/src/main/java/net/javaguides/springboot/repository/EmployeeRepository.java
+/opt/project1/employee-management-webapp/src/main/java/net/javaguides/springboot/service/EmployeeService.java
+/opt/project1/employee-management-webapp/src/main/java/net/javaguides/springboot/service/EmployeeServiceImpl.java
