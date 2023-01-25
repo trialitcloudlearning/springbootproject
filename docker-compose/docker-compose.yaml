@@ -1,0 +1,42 @@
+# Use root/example as user/password credentials
+version: '3.1'
+services:
+  mysql-springboot:
+    image: mysql
+    container_name: mysql-springboot
+    command: --default-authentication-plugin=mysql_native_password
+    ports:
+      - 3307:3306
+    restart: always
+    volumes:
+      - mysql-volume:/var/lib/mysql/
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: samay
+      MYSQL_PASSWORD: password
+      MYSQL_DATABASE: demo
+
+  adminer:
+    image: adminer
+    container_name: adminer
+    restart: always
+    ports:
+      - 8888:8080
+  java-springboot:
+    container_name: java-springboot
+    image: groversamay/java-springboot:v1
+    ports:
+      - 8083:8089
+    restart: always
+    volumes:
+      - java-app-volume:/opt
+    environment:
+      HOSTNAME: mysql-springboot
+      USERNAME: samay
+      PASSWORD: password
+      DB_NAME: demo
+
+volumes:
+   mysql-volume:
+   java-app-volume:
+
